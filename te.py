@@ -255,7 +255,6 @@ print(new_total_TE)
 ########## Proposed Trades ##########
 ####################################
 
-"""Hopefully this is right lol but make sure to fill in the proposed weights"""
 
 weights = holdings_df["Sector Weight"].to_numpy(dtype=float)
 betas = holdings_df["Beta"].to_numpy(dtype=float)
